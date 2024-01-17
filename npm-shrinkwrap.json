@@ -72,7 +72,7 @@
         "source-map-support": "^0.5.21"
       }
     },
-    "eslint-rules": {
+"eslint-rules": {
       "name": "eslint-plugin-cli-microsoft365",
       "version": "1.0.0",
       "dev": true
@@ -2504,8 +2504,9 @@
       }
     },
     "node_modules/eslint-plugin-cli-microsoft365": {
-      "resolved": "eslint-rules",
-      "link": true
+      "version": "1.0.0",
+      "resolved": "file:eslint-rules",
+      "dev": true
     },
     "node_modules/eslint-plugin-mocha": {
       "version": "10.2.0",
